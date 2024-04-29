@@ -1,0 +1,47 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block title %} About Us {% endblock title %}
+
+{% block main-content %}
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Welcome to Nestle Coffee!</h2>
+      <p class="text-justify">
+        Nestle Coffee is not just a cafe; it's a vibrant hub where flavors meet friendships and every sip tells a story.
+        Located
+        at the heart of our university campus, we are more than just a place to grab a cup of coffee. We are a
+        community, a
+        place where ideas percolate, and connections brew.
+
+        Our journey began with a simple yet profound passion: to create moments of delight with every cup we serve.
+        Whether
+        you're seeking a peaceful corner to study, catching up with friends over aromatic brews, or fueling your day
+        with our
+        delectable snacks, Nestle Coffee is your go-to destination.
+
+        At Nestle Coffee, we take pride in our commitment to quality. From hand-picked coffee beans to curated blends,
+        each cup
+        is crafted with care to ensure an unforgettable experience. Our menu boasts a variety of coffees, teas, snacks,
+        and
+        beverages, catering to every taste bud and mood.
+
+        But Nestle Coffee is more than just a cafe; it's a space for creativity and collaboration. We host events,
+        workshops,
+        and gatherings that inspire and invigorate. Whether you're a coffee connoisseur, an aspiring artist, or a
+        curious soul,
+        there's always something brewing at Nestle Coffee.
+
+        Join us on this journey of flavors, friendships, and fond memories. Discover the essence of Nestle Coffee, where
+        every
+        cup tells a tale and every moment is savored.
+      </p>
+      <h2> Your Campus, Your Coffee, Your Story.</h2>
+    </div>
+    <div class="col-md-6">
+      <img src="{% static 'app/images/banner/coffee1.jpg' %}" class="img-fluid" alt="About Us">
+    </div>
+  </div>
+</div>
+{% endblock main-content %}
